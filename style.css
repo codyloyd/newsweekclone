@@ -52,8 +52,8 @@ h3 {
 h1 a{
 	color: black;
 	text-transform: uppercase;
+	font-size: 28px;
 	font-weight: 900;
-	font-size: 42;
 	position: relative;
 }
 
@@ -63,18 +63,43 @@ h4 a {
 	font-size: 14px;
 }
 
+.headline h1 a {
+	font-size: 42px;
+}
+
+.headline article {
+	font-size: 27px;
+}
+
 .thing {
 	position: relative;
 }
+.btn-xlarge {
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 700;
+    width: 100%;
+    line-height: normal;
+    -webkit-border-radius: 0;
+       -moz-border-radius: 0;
+            border-radius: 0;
+    }
 
 .border-top{
 	border-top:1px solid #ccc;
 	margin-top: 10px;
 	padding: 10px;
 }
-.headline article{
+
+.border-left {
+	border-left: 1px solid #ccc;
+}
+.secondary {
+	text-align: center;
+}
+article{
 	font-family: 'Playfair Display', serif;
-	font-size: 27px;
+	font-size: 16px;
 }
 
 .latestheadlines {
