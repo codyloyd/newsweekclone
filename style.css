@@ -43,13 +43,13 @@ body {
 	position: relative;
 }
 
-.headline h3 {
+h3 {
 	color: #ff0500;
 	text-transform: uppercase;
 	font-weight: 600;
 }
 
-.headline h1 a{
+h1 a{
 	color: black;
 	text-transform: uppercase;
 	font-weight: 900;
@@ -57,7 +57,7 @@ body {
 	position: relative;
 }
 
-.headline h4 a {
+h4 a {
 	color: black;
 	font-weight: 600;
 	font-size: 14px;
@@ -152,6 +152,7 @@ body {
     .navbar-nav {
         float: none!important;
 		margin-top: 7.5px;
+		background: #111;
 	}
 	.navbar-nav>li {
         float: none;
