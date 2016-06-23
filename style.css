@@ -14,9 +14,7 @@ body {
 	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
 }
 
-.active {
-	background: #111;
-}
+
 .navbar-inverse .navbar-nav > li > a {
 	color: white;
 	font-size: 14px;
@@ -24,6 +22,13 @@ body {
 	height: 14px;
 	margin-top: 8px;
 }
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+    color: #fff;
+    background-color: #111;
+}
+
+
 .navbar-inverse .navbar-nav > li > a:hover {
 	opacity: .4;
 }
@@ -46,13 +51,14 @@ body {
 h3 {
 	color: #ff0500;
 	text-transform: uppercase;
-	font-weight: 600;
+	font-weight: 900;
+	font-size: 16px;
 }
 
 h1 a{
 	color: black;
 	text-transform: uppercase;
-	font-size: 28px;
+	font-size: 24px;
 	font-weight: 900;
 	position: relative;
 }
@@ -79,7 +85,6 @@ h4 a {
     font-size: 16px;
     font-weight: 700;
     width: 100%;
-    line-height: normal;
     -webkit-border-radius: 0;
        -moz-border-radius: 0;
             border-radius: 0;
@@ -102,6 +107,23 @@ article{
 	font-size: 16px;
 }
 
+
+.morearticle div {
+	text-align: center;
+	border: 1px solid #ccc;
+	height: 500px;
+	padding: 15px;
+}
+
+.morearticle .small-div {
+	height: 300px;
+}
+
+.latestheadlines * a {
+	color: black;
+	font-weight: 600;
+	font-size: 16px;
+}
 .latestheadlines {
 	margin-top: 25px;
 }
@@ -147,11 +169,7 @@ article{
     height: 8px;
 }
 
-.latestheadlines * a {
-	color: black;
-	font-weight: 600;
-	font-size: 16px;
-}
+
 
 @media (max-width: 1200px) {
     .navbar-header {
