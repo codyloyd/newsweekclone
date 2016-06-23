@@ -216,4 +216,14 @@ article{
 	.headlineimg{
 		margin: 0 auto;
 	}
+
+	.latestheadlines {
+		text-align: center;
+		background: #fafafa;
+	}
+
+
+	.bullet::before {
+		display: none;
+	}
 }
